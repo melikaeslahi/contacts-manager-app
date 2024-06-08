@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/melikaeslahi/contacts-manager-app/static/css/main.2611678a.css",
+    "main.js": "/melikaeslahi/contacts-manager-app/static/js/main.f4d4fc9f.js",
+    "static/media/Spinner.gif": "/melikaeslahi/contacts-manager-app/static/media/Spinner.5b35cef0ce49e2af8525.gif",
+    "static/media/no-found.gif": "/melikaeslahi/contacts-manager-app/static/media/no-found.8a3fe9fd54d21c85d260.gif",
+    "static/media/man-taking-note.png": "/melikaeslahi/contacts-manager-app/static/media/man-taking-note.578e1679689f39584d15.png",
+    "index.html": "/melikaeslahi/contacts-manager-app/index.html",
+    "main.2611678a.css.map": "/melikaeslahi/contacts-manager-app/static/css/main.2611678a.css.map",
+    "main.f4d4fc9f.js.map": "/melikaeslahi/contacts-manager-app/static/js/main.f4d4fc9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2611678a.css",
+    "static/js/main.f4d4fc9f.js"
+  ]
+}
