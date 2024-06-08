@@ -1,4 +1,5 @@
 {
+  "homepage": "https://melikaeslahi.github.io/contacts-manager-app",
   "name": "contact-manager-app",
   "version": "0.1.0",
   "private": true,
@@ -22,16 +23,25 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "predeploy": "react-scripts build",
+    "deploy":"gh-pages -d build",
     "start": "concurrently \"react-scripts start\" \"cd server && npm start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": ["react-app", "react-app/jest"]
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -39,6 +49,7 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^7.3.0"
+    "concurrently": "^7.3.0",
+    "gh-pages": "^6.1.1"
   }
 }
